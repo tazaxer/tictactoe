@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		958AAC5B28BD131200A2EF29 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 958AAC5A28BD131200A2EF29 /* main.cpp */; };
+		958AAC5B28BD131200A2EF29 /* tictactoe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 958AAC5A28BD131200A2EF29 /* tictactoe.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,8 @@
 
 /* Begin PBXFileReference section */
 		958AAC5728BD131200A2EF29 /* tictactoe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tictactoe; sourceTree = BUILT_PRODUCTS_DIR; };
-		958AAC5A28BD131200A2EF29 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		958AAC5A28BD131200A2EF29 /* tictactoe.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tictactoe.cpp; sourceTree = "<group>"; };
+		958AAC6228BD146900A2EF29 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +42,8 @@
 		958AAC4E28BD131200A2EF29 = {
 			isa = PBXGroup;
 			children = (
-				958AAC5928BD131200A2EF29 /* tictactoe */,
+				958AAC6228BD146900A2EF29 /* .gitignore */,
+				958AAC5928BD131200A2EF29 /* src */,
 				958AAC5828BD131200A2EF29 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +56,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		958AAC5928BD131200A2EF29 /* tictactoe */ = {
+		958AAC5928BD131200A2EF29 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				958AAC5A28BD131200A2EF29 /* main.cpp */,
+				958AAC5A28BD131200A2EF29 /* tictactoe.cpp */,
 			);
-			path = tictactoe;
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				958AAC5B28BD131200A2EF29 /* main.cpp in Sources */,
+				958AAC5B28BD131200A2EF29 /* tictactoe.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
